@@ -1,0 +1,15 @@
+# Compiled Java files
+out/
+*.class
+
+# User data and chat history
+data/
+
+# Server logs
+logs/
+
+# macOS files
+.DS_Store
+
+# VS Code settings
+.vscode/
