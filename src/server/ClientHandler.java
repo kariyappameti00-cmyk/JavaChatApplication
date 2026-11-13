@@ -18,6 +18,11 @@ public class ClientHandler implements Runnable {
         this.socket = socket;
     }
 
+    // Allow ChatServer to access username
+    public String getUsername() {
+        return username;
+    }
+
     @Override
     public void run() {
 
@@ -163,7 +168,10 @@ public class ClientHandler implements Runnable {
 
                     } else if (ChatServer.createGroup(groupName, this)) {
 
-                        sendMessage("Group created: " + groupName);
+                        sendMessage(
+                                "Group created: " + groupName
+                                        + ". You are the group admin."
+                        );
 
                     } else {
 
@@ -173,19 +181,115 @@ public class ClientHandler implements Runnable {
                     continue;
                 }
 
-                // JOIN GROUP
-                if (message.startsWith("/join ")) {
+                // REQUEST TO JOIN GROUP
+                if (message.startsWith("/request ")) {
 
-                    String groupName = message.substring(6).trim();
+                    String groupName = message.substring(9).trim();
 
-                    if (ChatServer.joinGroup(groupName, this)) {
+                    if (groupName.isEmpty()) {
+                        sendMessage("Usage: /request groupName");
+                    } else {
+                        sendMessage(
+                                ChatServer.requestToJoin(groupName, this)
+                        );
+                    }
 
-                        sendMessage("Joined group: " + groupName);
+                    continue;
+                }
+
+                // VIEW PENDING REQUESTS
+                if (message.startsWith("/requests ")) {
+
+                    String groupName = message.substring(10).trim();
+
+                    if (groupName.isEmpty()) {
+                        sendMessage("Usage: /requests groupName");
+                        continue;
+                    }
+
+                    if (!ChatServer.groupExists(groupName)) {
+                        sendMessage("Group not found.");
+                        continue;
+                    }
+
+                    java.util.List<String> requests =
+                            ChatServer.getPendingRequests(groupName, this);
+
+                    if (requests == null) {
+                        sendMessage("Only the group admin can view requests.");
+                    } else if (requests.isEmpty()) {
+                        sendMessage("No pending requests for " + groupName + ".");
+                    } else {
+                        sendMessage("Pending requests for " + groupName + ":");
+
+                        for (String requestedUser : requests) {
+                            sendMessage("- " + requestedUser);
+                        }
+                    }
+
+                    continue;
+                }
+
+                // APPROVE JOIN REQUEST
+                if (message.startsWith("/approve ")) {
+
+                    String[] parts = message.split("\\s+", 3);
+
+                    if (parts.length != 3) {
+                        sendMessage("Usage: /approve groupName username");
+                        continue;
+                    }
+
+                    String groupName = parts[1];
+                    String requestedUsername = parts[2];
+
+                    if (ChatServer.approveJoin(
+                            groupName, requestedUsername, this)) {
+
+                        // Approval messages are sent by ChatServer.
 
                     } else {
 
-                        sendMessage("Group not found.");
+                        sendMessage(
+                                "Could not approve request. Check group, "
+                                        + "username, pending request and admin permission."
+                        );
                     }
+
+                    continue;
+                }
+
+                // REJECT JOIN REQUEST
+                if (message.startsWith("/reject ")) {
+
+                    String[] parts = message.split("\\s+", 3);
+
+                    if (parts.length != 3) {
+                        sendMessage("Usage: /reject groupName username");
+                        continue;
+                    }
+
+                    String groupName = parts[1];
+                    String requestedUsername = parts[2];
+
+                    if (!ChatServer.rejectJoin(
+                            groupName, requestedUsername, this)) {
+
+                        sendMessage(
+                                "Could not reject request. Check group, "
+                                        + "username, pending request and admin permission."
+                        );
+                    }
+
+                    continue;
+                }
+
+                // OLD JOIN COMMAND IS NO LONGER ALLOWED
+                if (message.startsWith("/join ")) {
+
+                    sendMessage(
+                            "Direct joining is disabled. Use /request groupName."
+                    );
 
                     continue;
                 }
@@ -204,13 +308,15 @@ public class ClientHandler implements Runnable {
                     String groupName = parts[1];
                     String groupText = parts[2];
 
-                    if (!ChatServer.groups.containsKey(groupName)) {
+                    if (!ChatServer.groupExists(groupName)) {
 
                         sendMessage("Group not found.");
 
-                    } else if (!ChatServer.groups.get(groupName).contains(this)) {
+                    } else if (!ChatServer.isMember(groupName, this)) {
 
-                        sendMessage("Join the group first.");
+                        sendMessage(
+                                "You are not an approved member of this group."
+                        );
 
                     } else {
 
