@@ -1,8 +1,12 @@
-
 package server;
 
 import java.net.*;
 import java.io.*;
+import java.nio.charset.StandardCharsets;
+import java.util.Base64;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Collections;
 
 import auth.AuthService;
 import storage.MessageHistory;
@@ -18,7 +22,6 @@ public class ClientHandler implements Runnable {
         this.socket = socket;
     }
 
-    // Allow ChatServer to access username
     public String getUsername() {
         return username;
     }
@@ -29,7 +32,6 @@ public class ClientHandler implements Runnable {
         boolean registeredOnline = false;
 
         try {
-
             input = new BufferedReader(
                     new InputStreamReader(socket.getInputStream()));
 
@@ -51,25 +53,22 @@ public class ClientHandler implements Runnable {
                 return;
             }
 
-            boolean authenticated = false;
+            boolean authenticated;
 
             if (choice.equalsIgnoreCase("REGISTER")) {
 
-                authenticated =
-                        AuthService.register(username, password);
+                authenticated = AuthService.register(username, password);
 
                 if (authenticated) {
                     sendMessage("Registration successful!");
                 } else {
-                    sendMessage(
-                            "Registration failed. Username may already exist.");
+                    sendMessage("Registration failed. Username may already exist.");
                     return;
                 }
 
             } else if (choice.equalsIgnoreCase("LOGIN")) {
 
-                authenticated =
-                        AuthService.login(username, password);
+                authenticated = AuthService.login(username, password);
 
                 if (authenticated) {
                     sendMessage("Login successful!");
@@ -79,14 +78,12 @@ public class ClientHandler implements Runnable {
                 }
 
             } else {
-
                 sendMessage("Invalid choice.");
                 return;
             }
 
             // Prevent duplicate online sessions
             if (ChatServer.onlineUsers.putIfAbsent(username, this) != null) {
-
                 sendMessage("This user is already online.");
                 return;
             }
@@ -102,11 +99,16 @@ public class ClientHandler implements Runnable {
 
             String message;
 
-            // Main message processing loop
             while ((message = input.readLine()) != null) {
 
                 if (message.equalsIgnoreCase("/logout")) {
                     break;
+                }
+
+                // Retrieve all existing groups
+                if (message.equalsIgnoreCase("/groups")) {
+                    sendGroupList();
+                    continue;
                 }
 
                 // PRIVATE MESSAGE
@@ -126,28 +128,19 @@ public class ClientHandler implements Runnable {
                             ChatServer.onlineUsers.get(receiverName);
 
                     if (receiver == null) {
-
                         sendMessage("User is not online.");
-
                     } else {
 
                         String formatted = MessageHistory.format(
                                 username,
                                 "Private to " + receiverName,
-                                privateText
-                        );
+                                privateText);
 
                         MessageHistory.save(formatted);
 
-                        receiver.sendMessage(
-                                "[Private] " + formatted
-                        );
+                        receiver.sendMessage("[Private] " + formatted);
 
-                        sendMessage(
-                                "[Private confirmation] " + formatted
-                        );
-
-                        System.out.println(formatted);
+                        sendMessage("[Private confirmation] " + formatted);
 
                         ServerLogger.log(
                                 username + " sent a private message to "
@@ -163,18 +156,18 @@ public class ClientHandler implements Runnable {
                     String groupName = message.substring(8).trim();
 
                     if (groupName.isEmpty()) {
-
                         sendMessage("Enter a group name.");
 
                     } else if (ChatServer.createGroup(groupName, this)) {
 
                         sendMessage(
                                 "Group created: " + groupName
-                                        + ". You are the group admin."
-                        );
+                                        + ". You are the group admin.");
+
+                        sendGroupList();
+                        ChatServer.broadcast("[GROUPS_CHANGED]");
 
                     } else {
-
                         sendMessage("Group already exists.");
                     }
 
@@ -182,6 +175,25 @@ public class ClientHandler implements Runnable {
                 }
 
                 // REQUEST TO JOIN GROUP
+                // Base64 encoding supports group names containing spaces.
+                if (message.startsWith("/request64 ")) {
+
+                    String encodedName = message.substring(11).trim();
+
+                    try {
+                        String groupName = decode(encodedName);
+
+                        sendMessage(
+                                ChatServer.requestToJoin(groupName, this));
+
+                    } catch (IllegalArgumentException e) {
+                        sendMessage("Invalid group name.");
+                    }
+
+                    continue;
+                }
+
+                // REQUEST TO JOIN GROUP - OLD COMMAND
                 if (message.startsWith("/request ")) {
 
                     String groupName = message.substring(9).trim();
@@ -190,8 +202,7 @@ public class ClientHandler implements Runnable {
                         sendMessage("Usage: /request groupName");
                     } else {
                         sendMessage(
-                                ChatServer.requestToJoin(groupName, this)
-                        );
+                                ChatServer.requestToJoin(groupName, this));
                     }
 
                     continue;
@@ -212,13 +223,15 @@ public class ClientHandler implements Runnable {
                         continue;
                     }
 
-                    java.util.List<String> requests =
+                    List<String> requests =
                             ChatServer.getPendingRequests(groupName, this);
 
                     if (requests == null) {
                         sendMessage("Only the group admin can view requests.");
+
                     } else if (requests.isEmpty()) {
-                        sendMessage("No pending requests for " + groupName + ".");
+                        sendMessage("No pending requests for " + groupName);
+
                     } else {
                         sendMessage("Pending requests for " + groupName + ":");
 
@@ -237,23 +250,14 @@ public class ClientHandler implements Runnable {
 
                     if (parts.length != 3) {
                         sendMessage("Usage: /approve groupName username");
-                        continue;
-                    }
-
-                    String groupName = parts[1];
-                    String requestedUsername = parts[2];
-
-                    if (ChatServer.approveJoin(
-                            groupName, requestedUsername, this)) {
-
-                        // Approval messages are sent by ChatServer.
-
-                    } else {
+                    } else if (!ChatServer.approveJoin(
+                            parts[1], parts[2], this)) {
 
                         sendMessage(
                                 "Could not approve request. Check group, "
-                                        + "username, pending request and admin permission."
-                        );
+                                        + "username and admin permission.");
+                    } else {
+                        ChatServer.broadcast("[GROUPS_CHANGED]");
                     }
 
                     continue;
@@ -266,41 +270,78 @@ public class ClientHandler implements Runnable {
 
                     if (parts.length != 3) {
                         sendMessage("Usage: /reject groupName username");
-                        continue;
-                    }
 
-                    String groupName = parts[1];
-                    String requestedUsername = parts[2];
-
-                    if (!ChatServer.rejectJoin(
-                            groupName, requestedUsername, this)) {
+                    } else if (!ChatServer.rejectJoin(
+                            parts[1], parts[2], this)) {
 
                         sendMessage(
                                 "Could not reject request. Check group, "
-                                        + "username, pending request and admin permission."
-                        );
+                                        + "username and admin permission.");
                     }
 
                     continue;
                 }
 
-                // OLD JOIN COMMAND IS NO LONGER ALLOWED
+                // DIRECT JOINING IS NOT ALLOWED
                 if (message.startsWith("/join ")) {
 
                     sendMessage(
-                            "Direct joining is disabled. Use /request groupName."
-                    );
+                            "Direct joining is disabled. Use a join request.");
 
                     continue;
                 }
 
-                // GROUP MESSAGE
+                // GROUP MESSAGE WITH ENCODED GROUP NAME
+                if (message.startsWith("/group64 ")) {
+
+                    String[] parts = message.split("\\s+", 3);
+
+                    if (parts.length < 3) {
+                        sendMessage("Invalid group message.");
+                        continue;
+                    }
+
+                    try {
+                        String groupName = decode(parts[1]);
+                        String groupText = decode(parts[2]);
+
+                        if (!ChatServer.groupExists(groupName)) {
+                            sendMessage("Group not found.");
+
+                        } else if (!ChatServer.isMember(groupName, this)) {
+                            sendMessage(
+                                    "You are not an approved member of this group.");
+
+                        } else {
+
+                            String formatted = MessageHistory.format(
+                                    username,
+                                    "Group: " + groupName,
+                                    groupText);
+
+                            MessageHistory.save(formatted);
+
+                            ChatServer.sendGroupMessage(
+                                    groupName, formatted);
+
+                            ServerLogger.log(
+                                    username + " sent a message to group "
+                                            + groupName);
+                        }
+
+                    } catch (IllegalArgumentException e) {
+                        sendMessage("Invalid group message.");
+                    }
+
+                    continue;
+                }
+
+                // OLD GROUP MESSAGE COMMAND
                 if (message.startsWith("/group ")) {
 
                     String[] parts = message.split("\\s+", 3);
 
                     if (parts.length < 3) {
-
                         sendMessage("Usage: /group groupName message");
                         continue;
                     }
@@ -309,33 +350,23 @@ public class ClientHandler implements Runnable {
                     String groupText = parts[2];
 
                     if (!ChatServer.groupExists(groupName)) {
-
                         sendMessage("Group not found.");
 
                     } else if (!ChatServer.isMember(groupName, this)) {
-
                         sendMessage(
-                                "You are not an approved member of this group."
-                        );
+                                "You are not an approved member of this group.");
 
                     } else {
 
                         String formatted = MessageHistory.format(
                                 username,
                                 "Group: " + groupName,
-                                groupText
-                        );
+                                groupText);
 
                         MessageHistory.save(formatted);
 
                         ChatServer.sendGroupMessage(
-                                groupName,
-                                formatted
-                        );
-
-                        ServerLogger.log(
-                                username + " sent a message to group "
-                                        + groupName);
+                                groupName, formatted);
                     }
 
                     continue;
@@ -345,17 +376,13 @@ public class ClientHandler implements Runnable {
                 String formatted = MessageHistory.format(
                         username,
                         "Public",
-                        message
-                );
+                        message);
 
                 MessageHistory.save(formatted);
 
-                System.out.println(formatted);
-
                 ChatServer.broadcast(formatted);
 
-                ServerLogger.log(
-                        "Public message from " + username);
+                ServerLogger.log("Public message from " + username);
             }
 
         } catch (IOException e) {
@@ -372,6 +399,8 @@ public class ClientHandler implements Runnable {
 
                 ChatServer.broadcast(username + " left the chat.");
 
+                ChatServer.broadcast("[GROUPS_CHANGED]");
+
                 System.out.println(username + " disconnected.");
 
                 ServerLogger.log(username + " logged out.");
@@ -385,7 +414,49 @@ public class ClientHandler implements Runnable {
         }
     }
 
-    // Send message safely to client
+    // Send all existing groups to the connected client
+    private void sendGroupList() {
+
+        sendMessage("[[GROUP_LIST_BEGIN]]");
+
+        List<String> names =
+                new ArrayList<>(ChatServer.groups.keySet());
+
+        Collections.sort(names, String.CASE_INSENSITIVE_ORDER);
+
+        for (String groupName : names) {
+
+            String admin = ChatServer.groupAdmins.getOrDefault(
+                    groupName, "Unknown");
+
+            boolean member = ChatServer.isMember(groupName, this);
+
+            sendMessage(
+                    "[[GROUP_ITEM]]"
+                            + encode(groupName) + "|"
+                            + encode(admin) + "|"
+                            + member);
+        }
+
+        sendMessage("[[GROUP_LIST_END]]");
+    }
+
+    // Encode text safely
+    private String encode(String value) {
+
+        return Base64.getEncoder().encodeToString(
+                value.getBytes(StandardCharsets.UTF_8));
+    }
+
+    // Decode text safely
+    private String decode(String value) {
+
+        return new String(
+                Base64.getDecoder().decode(value),
+                StandardCharsets.UTF_8);
+    }
+
+    // Send messages safely
     public synchronized void sendMessage(String message) {
 
         if (output != null) {
