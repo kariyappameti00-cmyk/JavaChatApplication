@@ -1,0 +1,5420 @@
+jdk.ObjectAllocationSample {
+  startTime = 11:26:18.973 (2026-11-15)
+  objectClass = jdk.internal.classfile.impl.DirectCodeBuilder$DeferredLabel[] (classLoader = bootstrap)
+  weight = 56.3 kB
+  eventThread = "Attach Listener" (javaThreadId = 37)
+  stackTrace = [
+    java.lang.reflect.Array.newInstance(Class, int) line: 76
+    java.util.Arrays.copyOf(Object[], int, Class) line: 3510
+    java.util.Arrays.copyOf(Object[], int) line: 3478
+    jdk.internal.classfile.impl.DirectCodeBuilder.addLabel(DirectCodeBuilder$DeferredLabel) line: 842
+    jdk.internal.classfile.impl.DirectCodeBuilder.writeParsedShortLabel(int, Label) line: 609
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:26:18.974 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 42.9 kB
+  eventThread = "Attach Listener" (javaThreadId = 37)
+  stackTrace = [
+    jdk.jfr.internal.JVM.retransformClasses(Class[])
+    jdk.jfr.internal.SettingsManager.updateRetransform(List) line: 172
+    jdk.jfr.internal.SettingsManager.setSettings(List, boolean) line: 152
+    jdk.jfr.internal.MetadataRepository.setSettings(List, boolean) line: 234
+    jdk.jfr.internal.PlatformRecorder.updateSettingsButIgnoreRecording(PlatformRecording, boolean) line: 413
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:26:18.974 (2026-11-15)
+  objectClass = jdk.internal.classfile.impl.AbstractInstruction$UnboundBranchInstruction (classLoader = bootstrap)
+  weight = 42.7 kB
+  eventThread = "Attach Listener" (javaThreadId = 37)
+  stackTrace = [
+    java.lang.classfile.instruction.BranchInstruction.of(Opcode, Label) line: 76
+    java.lang.classfile.CodeBuilder.branch(Opcode, Label) line: 506
+    java.lang.classfile.CodeBuilder.ifnull(Label) line: 2289
+    jdk.jfr.internal.EventInstrumentation.lambda$methodCommit$2(CodeBuilder$BlockCodeBuilder) line: 303
+    jdk.internal.classfile.impl.CatchBuilderImpl.catchingMulti(List, Consumer) line: 95
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:26:18.975 (2026-11-15)
+  objectClass = java.util.ArrayList$ListItr (classLoader = bootstrap)
+  weight = 40.3 kB
+  eventThread = "Attach Listener" (javaThreadId = 37)
+  stackTrace = [
+    java.util.ArrayList.listIterator() line: 1027
+    jdk.internal.classfile.impl.StackMapGenerator.removeRangeFromExcTable(int, int) line: 364
+    jdk.internal.classfile.impl.StackMapGenerator.deadCodePatching(StackMapGenerator$Frame, int) line: 360
+    jdk.internal.classfile.impl.StackMapGenerator.generate() line: 326
+    jdk.internal.classfile.impl.StackMapGenerator.<init>(LabelContext, ClassDesc, String, MethodTypeDesc, boolean, RawBytecodeHelper$CodeRange, SplitConstantPool, ClassFileImpl, List) line: 260
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:26:18.975 (2026-11-15)
+  objectClass = java.lang.Object[] (classLoader = bootstrap)
+  weight = 56.3 kB
+  eventThread = "Attach Listener" (javaThreadId = 37)
+  stackTrace = [
+    java.util.ArrayList.grow(int) line: 240
+    java.util.ArrayList.grow() line: 245
+    java.util.ArrayList.add(Object, Object[], int) line: 484
+    java.util.ArrayList.add(Object) line: 497
+    jdk.internal.classfile.impl.DirectCodeBuilder.addHandler(ExceptionCatch) line: 852
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:26:18.975 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.4 kB
+  eventThread = "Attach Listener" (javaThreadId = 37)
+  stackTrace = [
+    java.util.Arrays.copyOfRange(byte[], int, int) line: 3849
+    java.lang.StringLatin1.newString(byte[], int, int) line: 1020
+    java.lang.String.substring(int, int) line: 3279
+    jdk.internal.constant.ConstantUtils.dropFirstAndLastChar(String) line: 361
+    jdk.internal.constant.ClassOrInterfaceDescImpl.internalName() line: 66
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:26:18.979 (2026-11-15)
+  objectClass = java.util.concurrent.ConcurrentHashMap$Node[] (classLoader = bootstrap)
+  weight = 256.0 kB
+  eventThread = "Attach Listener" (javaThreadId = 37)
+  stackTrace = [
+    java.util.concurrent.ConcurrentHashMap.initTable() line: 2328
+    java.util.concurrent.ConcurrentHashMap.putVal(Object, Object, boolean) line: 1032
+    java.util.concurrent.ConcurrentHashMap.put(Object, Object) line: 1021
+    jdk.jfr.internal.StringPool.storeString(String, boolean) line: 103
+    jdk.jfr.internal.StringPool.addString(String, boolean) line: 142
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:26:18.979 (2026-11-15)
+  objectClass = java.util.ArrayList$Itr (classLoader = bootstrap)
+  weight = 2.0 kB
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+  stackTrace = [
+    java.util.ArrayList.iterator() line: 1038
+    jdk.jfr.internal.periodic.BatchManager.findBatch(long, Batch) line: 95
+    jdk.jfr.internal.periodic.BatchManager.groupTasksIntoBatches(List) line: 66
+    jdk.jfr.internal.periodic.BatchManager.refresh(long, List) line: 54
+    jdk.jfr.internal.periodic.PeriodicEvents.doPeriodic() line: 123
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:04.228 (2026-11-15)
+  objectClass = char[] (classLoader = bootstrap)
+  weight = 60.4 kB
+  eventThread = "Attach Listener" (javaThreadId = 37)
+  stackTrace = [
+    java.lang.StringUTF16.toChars(byte[]) line: 201
+    java.lang.String.toCharArray() line: 4789
+    java.lang.CharacterData00.<clinit>() line: 2002
+    java.lang.CharacterData.of(int) line: 84
+    java.lang.Character.getType(int) line: 12026
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.331 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 97.0 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.336 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.341 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.344 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.345 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.346 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.347 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.348 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.350 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.351 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.352 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.353 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.354 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.355 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.356 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.357 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.358 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.359 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.359 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.359 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.360 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.360 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.5 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.361 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 39.0 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.361 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.362 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.362 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.362 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.362 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.362 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.362 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.363 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.363 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.363 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.363 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.363 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.363 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.364 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.364 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.364 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.364 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.364 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.364 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.365 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.365 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.365 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.365 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.365 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.365 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.365 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.366 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.366 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.366 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.366 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.366 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.366 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.367 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.367 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.367 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.367 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.368 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.368 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.368 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.369 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.369 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.369 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.369 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.369 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.369 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.370 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.370 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.370 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.370 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.370 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.370 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.370 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.371 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.371 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.371 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.371 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.371 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.371 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.372 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.372 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.372 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.372 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.373 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.373 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.373 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.373 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.1 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.374 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 80.2 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.374 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 80.2 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.375 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 80.2 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.375 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 80.2 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.376 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 80.2 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.376 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 80.2 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.377 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 80.0 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:32.377 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 80.2 kB
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.906 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.907 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.908 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.909 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.909 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.910 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.911 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.912 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.913 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.914 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.914 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.914 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 12.6 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.915 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.916 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.916 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.917 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.918 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.919 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.919 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.920 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:27:45.921 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 149.0 kB
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.823 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 56.6 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    java.lang.StringUTF16.compress(char[], int, int) line: 273
+    java.lang.String.<init>(char[], int, int, Void) line: 5217
+    java.lang.String.<init>(char[], int, int) line: 343
+    java.io.BufferedReader.readLine(boolean, boolean[]) line: 366
+    java.io.BufferedReader.readLine() line: 400
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.824 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.7 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.824 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.6 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.824 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.6 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.824 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.6 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.825 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.6 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.825 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.6 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.825 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.6 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.825 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.6 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.825 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.6 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.826 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.6 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.826 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 40.6 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.827 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 33.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.827 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.827 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.827 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.827 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.827 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.827 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.827 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.828 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.828 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.828 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.828 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.828 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.828 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.828 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.828 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.828 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.828 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.828 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.828 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.828 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.828 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.828 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.828 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.829 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.829 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.829 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.829 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.829 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.829 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.829 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.829 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.829 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.829 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.829 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.829 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.829 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.829 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.829 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.830 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.830 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.830 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.830 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.830 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.830 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.830 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.830 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.830 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.830 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.830 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.830 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.830 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.830 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.830 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.830 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.830 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.831 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.831 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.831 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 11.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.831 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 22.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.831 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 22.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.831 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 22.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.831 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 22.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.831 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 22.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.831 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 22.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.831 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 22.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.832 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 22.1 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.832 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 44.3 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.832 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 44.3 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.832 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 44.3 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.832 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 44.3 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.833 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 44.3 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.833 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 44.3 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.833 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 44.3 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.833 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 44.3 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.834 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 88.5 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.834 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 88.5 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.835 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 88.5 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.835 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 88.5 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.836 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 88.5 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.836 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 88.5 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.836 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 88.5 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.837 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 88.5 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.838 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 164.8 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.839 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 176.9 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.839 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 176.9 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:28:01.840 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 176.9 kB
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.662 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.0 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    java.nio.HeapByteBuffer.<init>(int, int, MemorySegment) line: 75
+    java.nio.ByteBuffer.allocate(int) line: 398
+    sun.nio.cs.StreamDecoder.<init>(InputStream, Object, CharsetDecoder) line: 248
+    sun.nio.cs.StreamDecoder.forInputStreamReader(InputStream, Object, CharsetDecoder) line: 92
+    java.io.InputStreamReader.<init>(InputStream, CharsetDecoder) line: 138
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.663 (2026-11-15)
+  objectClass = javax.crypto.spec.PBEKeySpec (classLoader = bootstrap)
+  weight = 36.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    auth.AuthService.hashPassword(String, byte[]) line: 106
+    auth.AuthService.login(String, String) line: 87
+    server.ClientHandler.run() line: 72
+    java.lang.Thread.run() line: 1527
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.663 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.0 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.663 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.663 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.663 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.664 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.664 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.664 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.664 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.664 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.664 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.664 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.664 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.664 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.664 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.665 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.665 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.665 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.665 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.665 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.665 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.665 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.665 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.665 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.666 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.666 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.666 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.666 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.666 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.666 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.666 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.666 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.666 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.666 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.666 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.667 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.667 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.667 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.667 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.667 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.667 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.667 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.667 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.667 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.667 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.668 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.668 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.668 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.668 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.668 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.668 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.668 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.668 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.668 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.669 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.669 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.669 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 20.1 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.671 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 10.9 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.671 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.671 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.671 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.671 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.672 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.672 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.672 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.672 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.672 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.672 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.672 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.672 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.673 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.673 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.673 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.673 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.673 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.673 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.673 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.673 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.673 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.674 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.674 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.674 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.674 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.674 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.674 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.674 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.674 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.675 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.675 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.675 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.675 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.675 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.675 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.675 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.676 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.676 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.676 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.676 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.676 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.676 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.676 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.676 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.676 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.677 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.677 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.677 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.677 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.677 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.677 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.677 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.677 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.678 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.678 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.678 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.678 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.678 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 24.2 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.678 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 48.4 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.679 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 48.4 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.679 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 48.4 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.679 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 48.4 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.679 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 48.4 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.680 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 48.4 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.680 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 48.4 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.680 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 48.4 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:33:53.680 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 96.8 kB
+  eventThread = "Thread-7" (javaThreadId = 48)
+  stackTrace = [
+    sun.security.provider.DigestBase.engineDigest() line: 183
+    java.security.MessageDigest$Delegate.engineDigest() line: 726
+    java.security.MessageDigest.digest() line: 437
+    com.sun.crypto.provider.HmacCore.engineDoFinal() line: 228
+    javax.crypto.Mac.doFinal() line: 585
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:34:10.492 (2026-11-15)
+  objectClass = java.util.HashMap$Node[] (classLoader = bootstrap)
+  weight = 137.4 kB
+  eventThread = "Attach Listener" (javaThreadId = 37)
+  stackTrace = [
+    java.util.HashMap.resize() line: 736
+    java.util.HashMap.putVal(int, Object, Object, boolean, boolean) line: 661
+    java.util.HashMap.put(Object, Object) line: 644
+    java.util.HashSet.add(Object) line: 230
+    jdk.jfr.internal.SettingsManager$InternalSetting.addToMap(Map, String, String) line: 87
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:34:10.493 (2026-11-15)
+  objectClass = java.util.HashMap$Node[] (classLoader = bootstrap)
+  weight = 74.0 kB
+  eventThread = "Attach Listener" (javaThreadId = 37)
+  stackTrace = [
+    java.util.HashMap.resize() line: 736
+    java.util.HashMap.putVal(int, Object, Object, boolean, boolean) line: 661
+    java.util.HashMap.put(Object, Object) line: 644
+    java.util.HashSet.add(Object) line: 230
+    jdk.jfr.internal.SettingsManager$InternalSetting.addToMap(Map, String, String) line: 87
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:34:10.493 (2026-11-15)
+  objectClass = java.util.HashMap$Node (classLoader = bootstrap)
+  weight = 74.0 kB
+  eventThread = "Attach Listener" (javaThreadId = 37)
+  stackTrace = [
+    java.util.HashMap.newNode(int, Object, Object, HashMap$Node) line: 1935
+    java.util.HashMap.putVal(int, Object, Object, boolean, boolean) line: 663
+    java.util.HashMap.put(Object, Object) line: 644
+    jdk.jfr.internal.SettingsManager$InternalSetting.finish() line: 126
+    jdk.jfr.internal.SettingsManager.makeInternalSettings(Map) line: 210
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:34:10.494 (2026-11-15)
+  objectClass = java.util.HashMap (classLoader = bootstrap)
+  weight = 74.0 kB
+  eventThread = "Attach Listener" (javaThreadId = 37)
+  stackTrace = [
+    java.util.HashSet.<init>(int) line: 155
+    java.util.HashSet.newHashSet(int) line: 401
+    jdk.jfr.internal.SettingsManager$InternalSetting.addToMap(Map, String, String) line: 84
+    jdk.jfr.internal.SettingsManager$InternalSetting.add(String, String) line: 77
+    jdk.jfr.internal.SettingsManager.makeInternalSettings(Map) line: 206
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:34:10.494 (2026-11-15)
+  objectClass = java.util.HashMap (classLoader = bootstrap)
+  weight = 74.0 kB
+  eventThread = "Attach Listener" (javaThreadId = 37)
+  stackTrace = [
+    java.util.HashSet.<init>(int) line: 155
+    java.util.HashSet.newHashSet(int) line: 401
+    jdk.jfr.internal.SettingsManager$InternalSetting.addToMap(Map, String, String) line: 84
+    jdk.jfr.internal.SettingsManager$InternalSetting.add(String, String) line: 77
+    jdk.jfr.internal.SettingsManager.makeInternalSettings(Map) line: 206
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:34:10.495 (2026-11-15)
+  objectClass = java.lang.Object[] (classLoader = bootstrap)
+  weight = 74.0 kB
+  eventThread = "Attach Listener" (javaThreadId = 37)
+  stackTrace = [
+    java.util.ArrayList.grow(int) line: 240
+    java.util.ArrayList.grow() line: 245
+    java.util.ArrayList.add(Object, Object[], int) line: 484
+    java.util.ArrayList.add(Object) line: 497
+    jdk.jfr.internal.JVM.getAllEventClasses()
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:34:10.496 (2026-11-15)
+  objectClass = java.lang.String (classLoader = bootstrap)
+  weight = 880 bytes
+  eventThread = "C1 CompilerThread0" (javaThreadId = 21)
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:34:10.502 (2026-11-15)
+  objectClass = byte[] (classLoader = bootstrap)
+  weight = 74.0 kB
+  eventThread = "Attach Listener" (javaThreadId = 37)
+  stackTrace = [
+    java.util.Arrays.copyOfRange(byte[], int, int) line: 3849
+    java.lang.StringLatin1.newString(byte[], int, int) line: 1020
+    java.lang.String.substring(int, int) line: 3279
+    jdk.jfr.internal.SettingsManager.makeInternalSettings(Map) line: 198
+    jdk.jfr.internal.SettingsManager.createSettingsMap(List) line: 179
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:34:10.502 (2026-11-15)
+  objectClass = java.util.HashMap (classLoader = bootstrap)
+  weight = 74.0 kB
+  eventThread = "Attach Listener" (javaThreadId = 37)
+  stackTrace = [
+    java.util.HashSet.<init>(int) line: 155
+    java.util.HashSet.newHashSet(int) line: 401
+    jdk.jfr.internal.SettingsManager$InternalSetting.addToMap(Map, String, String) line: 84
+    jdk.jfr.internal.SettingsManager$InternalSetting.add(String, String) line: 77
+    jdk.jfr.internal.SettingsManager.makeInternalSettings(Map) line: 206
+    ...
+  ]
+}
+
+jdk.ObjectAllocationSample {
+  startTime = 11:34:10.502 (2026-11-15)
+  objectClass = java.util.HashMap (classLoader = bootstrap)
+  weight = 74.0 kB
+  eventThread = "Attach Listener" (javaThreadId = 37)
+  stackTrace = [
+    jdk.jfr.internal.SettingsManager$InternalSetting.finish() line: 123
+    jdk.jfr.internal.SettingsManager.makeInternalSettings(Map) line: 210
+    jdk.jfr.internal.SettingsManager.createSettingsMap(List) line: 179
+    jdk.jfr.internal.SettingsManager.setSettings(List, boolean) line: 136
+    jdk.jfr.internal.MetadataRepository.setSettings(List, boolean) line: 234
+    ...
+  ]
+}
+

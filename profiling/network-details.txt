@@ -1,0 +1,340 @@
+jdk.SocketRead {
+  startTime = 11:27:32.322 (2026-11-15)
+  duration = 1.00 ms
+  host = "127.0.0.1"
+  address = "127.0.0.1"
+  port = 50718
+  timeout = 0 s
+  bytesRead = 6 bytes
+  endOfStream = false
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.nio.cs.StreamDecoder.readBytes() line: 279
+    sun.nio.cs.StreamDecoder.implRead(char[], int, int) line: 322
+    sun.nio.cs.StreamDecoder.read(char[], int, int) line: 186
+    java.io.InputStreamReader.read(char[], int, int) line: 183
+    java.io.BufferedReader.fill() line: 166
+    ...
+  ]
+}
+
+jdk.SocketRead {
+  startTime = 11:27:32.378 (2026-11-15)
+  duration = 1 m 1 s
+  host = "127.0.0.1"
+  address = "127.0.0.1"
+  port = 50718
+  timeout = 0 s
+  bytesRead = 11 bytes
+  endOfStream = false
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.nio.cs.StreamDecoder.readBytes() line: 279
+    sun.nio.cs.StreamDecoder.implRead(char[], int, int) line: 322
+    sun.nio.cs.StreamDecoder.read(char[], int, int) line: 186
+    java.io.InputStreamReader.read(char[], int, int) line: 183
+    java.io.BufferedReader.fill() line: 166
+    ...
+  ]
+}
+
+jdk.SocketRead {
+  startTime = 11:27:45.922 (2026-11-15)
+  duration = 1 m 1 s
+  host = "127.0.0.1"
+  address = "127.0.0.1"
+  port = 50720
+  timeout = 0 s
+  bytesRead = 11 bytes
+  endOfStream = false
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.nio.cs.StreamDecoder.readBytes() line: 279
+    sun.nio.cs.StreamDecoder.implRead(char[], int, int) line: 322
+    sun.nio.cs.StreamDecoder.read(char[], int, int) line: 186
+    java.io.InputStreamReader.read(char[], int, int) line: 183
+    java.io.BufferedReader.fill() line: 166
+    ...
+  ]
+}
+
+jdk.SocketRead {
+  startTime = 11:28:01.841 (2026-11-15)
+  duration = 58.9 s
+  host = "127.0.0.1"
+  address = "127.0.0.1"
+  port = 50722
+  timeout = 0 s
+  bytesRead = 11 bytes
+  endOfStream = false
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.nio.cs.StreamDecoder.readBytes() line: 279
+    sun.nio.cs.StreamDecoder.implRead(char[], int, int) line: 322
+    sun.nio.cs.StreamDecoder.read(char[], int, int) line: 186
+    java.io.InputStreamReader.read(char[], int, int) line: 183
+    java.io.BufferedReader.fill() line: 166
+    ...
+  ]
+}
+
+jdk.SocketRead {
+  startTime = 11:29:00.751 (2026-11-15)
+  duration = 25.7 s
+  host = "127.0.0.1"
+  address = "127.0.0.1"
+  port = 50722
+  timeout = 0 s
+  bytesRead = 11 bytes
+  endOfStream = false
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.nio.cs.StreamDecoder.readBytes() line: 279
+    sun.nio.cs.StreamDecoder.implRead(char[], int, int) line: 322
+    sun.nio.cs.StreamDecoder.read(char[], int, int) line: 186
+    java.io.InputStreamReader.read(char[], int, int) line: 183
+    java.io.BufferedReader.fill() line: 166
+    ...
+  ]
+}
+
+jdk.SocketRead {
+  startTime = 11:28:32.928 (2026-11-15)
+  duration = 1 m 15 s
+  host = "127.0.0.1"
+  address = "127.0.0.1"
+  port = 50718
+  timeout = 0 s
+  bytesRead = 11 bytes
+  endOfStream = false
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.nio.cs.StreamDecoder.readBytes() line: 279
+    sun.nio.cs.StreamDecoder.implRead(char[], int, int) line: 322
+    sun.nio.cs.StreamDecoder.read(char[], int, int) line: 186
+    java.io.InputStreamReader.read(char[], int, int) line: 183
+    java.io.BufferedReader.fill() line: 166
+    ...
+  ]
+}
+
+jdk.SocketRead {
+  startTime = 11:28:47.327 (2026-11-15)
+  duration = 1 m 19 s
+  host = "127.0.0.1"
+  address = "127.0.0.1"
+  port = 50720
+  timeout = 0 s
+  bytesRead = 11 bytes
+  endOfStream = false
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.nio.cs.StreamDecoder.readBytes() line: 279
+    sun.nio.cs.StreamDecoder.implRead(char[], int, int) line: 322
+    sun.nio.cs.StreamDecoder.read(char[], int, int) line: 186
+    java.io.InputStreamReader.read(char[], int, int) line: 183
+    java.io.BufferedReader.fill() line: 166
+    ...
+  ]
+}
+
+jdk.SocketRead {
+  startTime = 11:29:26.484 (2026-11-15)
+  duration = 57.6 s
+  host = "127.0.0.1"
+  address = "127.0.0.1"
+  port = 50722
+  timeout = 0 s
+  bytesRead = 18 bytes
+  endOfStream = false
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.nio.cs.StreamDecoder.readBytes() line: 279
+    sun.nio.cs.StreamDecoder.implRead(char[], int, int) line: 322
+    sun.nio.cs.StreamDecoder.read(char[], int, int) line: 186
+    java.io.InputStreamReader.read(char[], int, int) line: 183
+    java.io.BufferedReader.fill() line: 166
+    ...
+  ]
+}
+
+jdk.SocketRead {
+  startTime = 11:29:47.878 (2026-11-15)
+  duration = 54.0 s
+  host = "127.0.0.1"
+  address = "127.0.0.1"
+  port = 50718
+  timeout = 0 s
+  bytesRead = 12 bytes
+  endOfStream = false
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.nio.cs.StreamDecoder.readBytes() line: 279
+    sun.nio.cs.StreamDecoder.implRead(char[], int, int) line: 322
+    sun.nio.cs.StreamDecoder.read(char[], int, int) line: 186
+    java.io.InputStreamReader.read(char[], int, int) line: 183
+    java.io.BufferedReader.fill() line: 166
+    ...
+  ]
+}
+
+jdk.SocketRead {
+  startTime = 11:30:41.869 (2026-11-15)
+  duration = 13.8 s
+  host = "127.0.0.1"
+  address = "127.0.0.1"
+  port = 50718
+  timeout = 0 s
+  bytesRead = 17 bytes
+  endOfStream = false
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.nio.cs.StreamDecoder.readBytes() line: 279
+    sun.nio.cs.StreamDecoder.implRead(char[], int, int) line: 322
+    sun.nio.cs.StreamDecoder.read(char[], int, int) line: 186
+    java.io.InputStreamReader.read(char[], int, int) line: 183
+    java.io.BufferedReader.fill() line: 166
+    ...
+  ]
+}
+
+jdk.SocketRead {
+  startTime = 11:30:06.106 (2026-11-15)
+  duration = 1 m 16 s
+  host = "127.0.0.1"
+  address = "127.0.0.1"
+  port = 50720
+  timeout = 0 s
+  bytesRead = 41 bytes
+  endOfStream = false
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.nio.cs.StreamDecoder.readBytes() line: 279
+    sun.nio.cs.StreamDecoder.implRead(char[], int, int) line: 322
+    sun.nio.cs.StreamDecoder.read(char[], int, int) line: 186
+    java.io.InputStreamReader.read(char[], int, int) line: 183
+    java.io.BufferedReader.fill() line: 166
+    ...
+  ]
+}
+
+jdk.SocketRead {
+  startTime = 11:30:24.044 (2026-11-15)
+  duration = 1 m 16 s
+  host = "127.0.0.1"
+  address = "127.0.0.1"
+  port = 50722
+  timeout = 0 s
+  bytesRead = 14 bytes
+  endOfStream = false
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.nio.cs.StreamDecoder.readBytes() line: 279
+    sun.nio.cs.StreamDecoder.implRead(char[], int, int) line: 322
+    sun.nio.cs.StreamDecoder.read(char[], int, int) line: 186
+    java.io.InputStreamReader.read(char[], int, int) line: 183
+    java.io.BufferedReader.fill() line: 166
+    ...
+  ]
+}
+
+jdk.SocketRead {
+  startTime = 11:31:39.930 (2026-11-15)
+  duration = 23.3 s
+  host = "127.0.0.1"
+  address = "127.0.0.1"
+  port = 50722
+  timeout = 0 s
+  bytesRead = 16 bytes
+  endOfStream = false
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.nio.cs.StreamDecoder.readBytes() line: 279
+    sun.nio.cs.StreamDecoder.implRead(char[], int, int) line: 322
+    sun.nio.cs.StreamDecoder.read(char[], int, int) line: 186
+    java.io.InputStreamReader.read(char[], int, int) line: 183
+    java.io.BufferedReader.fill() line: 166
+    ...
+  ]
+}
+
+jdk.SocketRead {
+  startTime = 11:31:22.070 (2026-11-15)
+  duration = 1 m 2 s
+  host = "127.0.0.1"
+  address = "127.0.0.1"
+  port = 50720
+  timeout = 0 s
+  bytesRead = 17 bytes
+  endOfStream = false
+  eventThread = "Thread-5" (javaThreadId = 46)
+  stackTrace = [
+    sun.nio.cs.StreamDecoder.readBytes() line: 279
+    sun.nio.cs.StreamDecoder.implRead(char[], int, int) line: 322
+    sun.nio.cs.StreamDecoder.read(char[], int, int) line: 186
+    java.io.InputStreamReader.read(char[], int, int) line: 183
+    java.io.BufferedReader.fill() line: 166
+    ...
+  ]
+}
+
+jdk.SocketRead {
+  startTime = 11:32:03.187 (2026-11-15)
+  duration = 39.8 s
+  host = "127.0.0.1"
+  address = "127.0.0.1"
+  port = 50722
+  timeout = 0 s
+  bytesRead = 20 bytes
+  endOfStream = false
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.nio.cs.StreamDecoder.readBytes() line: 279
+    sun.nio.cs.StreamDecoder.implRead(char[], int, int) line: 322
+    sun.nio.cs.StreamDecoder.read(char[], int, int) line: 186
+    java.io.InputStreamReader.read(char[], int, int) line: 183
+    java.io.BufferedReader.fill() line: 166
+    ...
+  ]
+}
+
+jdk.SocketRead {
+  startTime = 11:32:43.007 (2026-11-15)
+  duration = 29.0 s
+  host = "127.0.0.1"
+  address = "127.0.0.1"
+  port = 50722
+  timeout = 0 s
+  bytesRead = 59 bytes
+  endOfStream = false
+  eventThread = "Thread-6" (javaThreadId = 47)
+  stackTrace = [
+    sun.nio.cs.StreamDecoder.readBytes() line: 279
+    sun.nio.cs.StreamDecoder.implRead(char[], int, int) line: 322
+    sun.nio.cs.StreamDecoder.read(char[], int, int) line: 186
+    java.io.InputStreamReader.read(char[], int, int) line: 183
+    java.io.BufferedReader.fill() line: 166
+    ...
+  ]
+}
+
+jdk.SocketRead {
+  startTime = 11:30:55.622 (2026-11-15)
+  duration = 2 m 41 s
+  host = "127.0.0.1"
+  address = "127.0.0.1"
+  port = 50718
+  timeout = 0 s
+  bytesRead = 8 bytes
+  endOfStream = false
+  eventThread = "Thread-4" (javaThreadId = 45)
+  stackTrace = [
+    sun.nio.cs.StreamDecoder.readBytes() line: 279
+    sun.nio.cs.StreamDecoder.implRead(char[], int, int) line: 322
+    sun.nio.cs.StreamDecoder.read(char[], int, int) line: 186
+    java.io.InputStreamReader.read(char[], int, int) line: 183
+    java.io.BufferedReader.fill() line: 166
+    ...
+  ]
+}
+

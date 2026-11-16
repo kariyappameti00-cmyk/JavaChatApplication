@@ -1,0 +1,4508 @@
+jdk.CPULoad {
+  startTime = 11:26:20.975 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 15.14%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:21.978 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.65%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:22.983 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.43%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:22.983 (2026-11-15)
+  user = 0.22%
+  system = 0.01%
+  eventThread = "C2 CompilerThread2" (javaThreadId = 20)
+}
+
+jdk.CPULoad {
+  startTime = 11:26:23.989 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 13.47%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:24.995 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.04%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:26.000 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 14.06%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:27.002 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.88%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:27.988 (2026-11-15)
+  user = 0.07%
+  system = 0.00%
+  eventThread = "C2 CompilerThread1" (javaThreadId = 19)
+}
+
+jdk.CPULoad {
+  startTime = 11:26:28.007 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 16.67%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:29.011 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 15.32%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:29.011 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C1 CompilerThread0" (javaThreadId = 21)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:29.011 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Common-Cleaner" (javaThreadId = 23)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:29.011 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "Attach Listener" (javaThreadId = 37)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:29.011 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:29.011 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:29.011 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "main" (javaThreadId = 3)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:29.011 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Service Thread" (javaThreadId = 16)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:29.011 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:29.011 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C2 CompilerThread0" (javaThreadId = 18)
+}
+
+jdk.CPULoad {
+  startTime = 11:26:30.017 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 14.30%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:31.022 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 17.80%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:32.028 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 20.50%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:33.032 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 22.73%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:34.034 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 19.58%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:35.039 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 22.58%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:36.041 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 22.06%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:37.046 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 19.94%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:38.051 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 19.58%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:39.057 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 18.86%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:39.057 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:39.057 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:39.057 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C1 CompilerThread0" (javaThreadId = 21)
+}
+
+jdk.CPULoad {
+  startTime = 11:26:40.065 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 20.34%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:41.067 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 27.84%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:42.072 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 26.23%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:43.077 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 23.35%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:44.083 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 18.61%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:45.089 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.85%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:46.094 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 14.74%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:47.100 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 19.14%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:48.101 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 15.26%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:49.107 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.71%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:49.107 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:49.107 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C1 CompilerThread0" (javaThreadId = 21)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:49.107 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:49.107 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:26:50.117 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 17.74%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:51.121 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 15.88%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:52.126 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.94%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:53.131 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.51%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:54.132 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 13.03%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:55.134 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.30%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:56.135 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.89%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:57.141 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 13.57%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:58.146 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.94%
+}
+
+jdk.CPULoad {
+  startTime = 11:26:59.152 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 15.55%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:59.152 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:26:59.152 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:27:00.162 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.26%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:01.167 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.41%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:02.173 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 15.84%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:03.178 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 21.32%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:04.184 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.74%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:05.189 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 16.08%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:06.193 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 14.74%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:07.197 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 16.85%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:08.200 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.89%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:09.206 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 13.45%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:09.206 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:09.206 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C2 CompilerThread0" (javaThreadId = 18)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:09.206 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C1 CompilerThread0" (javaThreadId = 21)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:09.206 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Attach Listener" (javaThreadId = 37)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:09.206 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:09.206 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:27:10.214 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.23%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:11.217 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 13.26%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:12.220 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 13.66%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:13.225 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.49%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:14.228 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.17%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:15.230 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 18.26%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:16.232 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 17.12%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:17.238 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 14.16%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:18.241 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.56%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:19.245 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.82%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:19.245 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:19.245 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:27:20.256 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 16.50%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:21.261 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 17.60%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:22.266 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 20.32%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:23.271 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 16.65%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:24.275 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 17.40%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:25.276 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.57%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:26.278 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 18.54%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:27.283 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 23.00%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:28.284 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 32.97%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:29.290 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 13.45%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:29.290 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Service Thread" (javaThreadId = 16)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:29.290 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:29.290 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:29.290 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:27:30.296 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.27%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:31.299 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.81%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:32.300 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.93%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:33.305 (2026-11-15)
+  jvmUser = 3.30%
+  jvmSystem = 0.10%
+  machineTotal = 21.36%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:34.308 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 14.27%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:35.310 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 21.96%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:36.312 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 17.08%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:37.317 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 12.39%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:37.402 (2026-11-15)
+  user = 0.14%
+  system = 0.00%
+  eventThread = "C2 CompilerThread2" (javaThreadId = 20)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:37.458 (2026-11-15)
+  user = 0.23%
+  system = 0.01%
+  eventThread = "C2 CompilerThread1" (javaThreadId = 19)
+}
+
+jdk.CPULoad {
+  startTime = 11:27:38.319 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.73%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:39.324 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.74%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:39.325 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "main" (javaThreadId = 3)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:39.325 (2026-11-15)
+  user = 0.07%
+  system = 0.00%
+  eventThread = "C2 CompilerThread0" (javaThreadId = 18)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:39.325 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "C1 CompilerThread0" (javaThreadId = 21)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:39.325 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:39.325 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:39.325 (2026-11-15)
+  user = 0.07%
+  system = 0.00%
+  eventThread = "Thread-4" (javaThreadId = 45)
+}
+
+jdk.CPULoad {
+  startTime = 11:27:40.335 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 10.54%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:41.338 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 34.07%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:42.343 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 16.05%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:43.344 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.70%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:44.349 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.41%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:45.350 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.38%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:46.355 (2026-11-15)
+  jvmUser = 0.40%
+  jvmSystem = 0.10%
+  machineTotal = 15.83%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:47.361 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 14.96%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:48.365 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 22.22%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:49.366 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 19.70%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:49.366 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "main" (javaThreadId = 3)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:49.366 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:49.366 (2026-11-15)
+  user = 0.02%
+  system = 0.00%
+  eventThread = "C2 CompilerThread0" (javaThreadId = 18)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:49.366 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C1 CompilerThread0" (javaThreadId = 21)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:49.366 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:49.366 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:49.366 (2026-11-15)
+  user = 0.05%
+  system = 0.00%
+  eventThread = "Thread-5" (javaThreadId = 46)
+}
+
+jdk.CPULoad {
+  startTime = 11:27:50.375 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 22.99%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:51.378 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 23.58%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:52.384 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 11.44%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:53.389 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.28%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:54.394 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 16.68%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:55.396 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 9.61%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:56.401 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 22.38%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:57.404 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 23.62%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:58.408 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 12.46%
+}
+
+jdk.CPULoad {
+  startTime = 11:27:59.413 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.38%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:59.413 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:27:59.413 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:28:00.417 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 10.40%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:01.422 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 16.60%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:02.426 (2026-11-15)
+  jvmUser = 0.20%
+  jvmSystem = 0.00%
+  machineTotal = 16.24%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:03.432 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 14.37%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:04.433 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 10.41%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:05.439 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 21.82%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:06.443 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 16.17%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:07.448 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 24.60%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:08.453 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.57%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:09.459 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.59%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:09.459 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "main" (javaThreadId = 3)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:09.459 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:09.459 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:09.459 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:09.459 (2026-11-15)
+  user = 0.02%
+  system = 0.00%
+  eventThread = "Thread-6" (javaThreadId = 47)
+}
+
+jdk.CPULoad {
+  startTime = 11:28:10.470 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 12.93%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:11.470 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 28.37%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:12.474 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 17.25%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:13.480 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 13.37%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:14.481 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 9.86%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:15.483 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 8.94%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:16.488 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 11.83%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:17.490 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.66%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:18.495 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.17%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:19.500 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 16.33%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:19.501 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:19.501 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:28:20.509 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 27.19%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:21.514 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 25.77%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:22.519 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 19.74%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:23.524 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 23.25%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:24.528 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.40%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:25.531 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.78%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:26.534 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 11.02%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:27.538 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.05%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:28.543 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 11.11%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:29.545 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 9.58%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:29.546 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:29.546 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C1 CompilerThread0" (javaThreadId = 21)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:29.546 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:29.546 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:28:30.552 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 10.72%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:31.557 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.79%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:32.561 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.63%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:33.566 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 15.48%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:34.573 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 13.01%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:35.576 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 17.28%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:36.581 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 21.08%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:37.586 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 27.66%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:38.592 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 10.38%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:39.595 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 15.10%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:39.596 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:39.596 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:39.596 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Thread-4" (javaThreadId = 45)
+}
+
+jdk.CPULoad {
+  startTime = 11:28:40.600 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.58%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:41.602 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.11%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:42.607 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 11.69%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:43.612 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.23%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:44.618 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 11.28%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:45.623 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 10.91%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:46.624 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.89%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:47.627 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 15.13%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:48.630 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.80%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:49.635 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 19.76%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:49.636 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Service Thread" (javaThreadId = 16)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:49.636 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:49.636 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C1 CompilerThread0" (javaThreadId = 21)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:49.636 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:49.636 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:49.636 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Thread-5" (javaThreadId = 46)
+}
+
+jdk.CPULoad {
+  startTime = 11:28:50.644 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 13.28%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:51.649 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 28.84%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:52.650 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.61%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:53.655 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.76%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:54.660 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 12.90%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:55.666 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 10.45%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:56.669 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 10.82%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:57.669 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.01%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:58.674 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.17%
+}
+
+jdk.CPULoad {
+  startTime = 11:28:59.675 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 11.42%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:59.676 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C2 CompilerThread0" (javaThreadId = 18)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:59.676 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:28:59.676 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:29:00.683 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 9.84%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:01.686 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 13.89%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:02.688 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 21.34%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:03.692 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 18.26%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:04.695 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 22.62%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:05.700 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 26.50%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:06.705 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 27.49%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:07.708 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.62%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:08.717 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 24.18%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:09.722 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.56%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:09.722 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:09.722 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:09.722 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:09.722 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Thread-6" (javaThreadId = 47)
+}
+
+jdk.CPULoad {
+  startTime = 11:29:10.727 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 11.07%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:11.732 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.76%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:12.733 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 25.05%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:13.736 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 10.52%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:14.741 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 10.98%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:15.746 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 10.07%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:16.750 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.17%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:17.755 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.99%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:18.757 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 22.31%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:19.762 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.01%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:19.763 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:19.763 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:29:20.767 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 11.59%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:21.772 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.59%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:22.777 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 17.76%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:23.783 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 10.86%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:24.788 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 10.55%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:25.791 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 12.75%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:26.796 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.02%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:27.800 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.03%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:28.805 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 13.94%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:29.808 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 18.66%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:29.808 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:29.808 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:29.808 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:29.808 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Thread-6" (javaThreadId = 47)
+}
+
+jdk.CPULoad {
+  startTime = 11:29:30.815 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 28.74%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:31.820 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.02%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:32.825 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 12.19%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:33.830 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.98%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:34.836 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 10.86%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:35.841 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.26%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:36.844 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 24.17%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:37.848 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 12.51%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:38.849 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.21%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:39.854 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 22.83%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:39.855 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C1 CompilerThread0" (javaThreadId = 21)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:39.855 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:39.855 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:29:40.861 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.72%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:41.865 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.49%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:42.866 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 12.77%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:43.868 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 12.65%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:44.874 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.10%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:45.875 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.49%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:46.877 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 12.81%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:47.879 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.22%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:48.884 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.46%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:49.890 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 24.88%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:49.890 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:49.890 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:49.890 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:49.890 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Thread-4" (javaThreadId = 45)
+}
+
+jdk.CPULoad {
+  startTime = 11:29:50.894 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 22.50%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:51.899 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.60%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:52.903 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 18.88%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:53.909 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 16.40%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:54.914 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.82%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:55.915 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 11.84%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:56.919 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 22.88%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:57.924 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.57%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:58.928 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 26.78%
+}
+
+jdk.CPULoad {
+  startTime = 11:29:59.933 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 12.13%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:59.934 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Service Thread" (javaThreadId = 16)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:59.934 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:29:59.934 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:30:00.941 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.03%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:01.945 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 13.54%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:02.946 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 13.51%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:03.951 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.16%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:04.957 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.15%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:05.962 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.62%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:06.964 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 14.54%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:07.968 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 32.93%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:08.974 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 21.32%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:09.977 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 18.64%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:09.977 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:09.977 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C1 CompilerThread0" (javaThreadId = 21)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:09.977 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:09.977 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:09.977 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Thread-5" (javaThreadId = 46)
+}
+
+jdk.CPULoad {
+  startTime = 11:30:10.985 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 24.93%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:11.991 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 19.40%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:12.993 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 24.87%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:13.994 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 23.25%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:14.996 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.24%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:16.001 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 24.53%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:17.007 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.24%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:18.012 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.59%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:19.015 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 13.19%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:20.018 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.22%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:20.019 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:20.019 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:30:21.028 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 12.80%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:22.034 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.30%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:23.039 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.67%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:24.044 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.37%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:25.050 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 16.08%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:26.054 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 19.56%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:27.059 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 17.47%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:28.061 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 23.67%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:29.065 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 11.71%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:30.071 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.76%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:30.071 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C1 CompilerThread0" (javaThreadId = 21)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:30.071 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:30.071 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C2 CompilerThread0" (javaThreadId = 18)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:30.071 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:30.071 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:30.071 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Thread-6" (javaThreadId = 47)
+}
+
+jdk.CPULoad {
+  startTime = 11:30:31.075 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 19.82%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:32.076 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.24%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:33.081 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 13.97%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:34.087 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 14.57%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:35.092 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.59%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:36.094 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 11.40%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:37.095 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 10.73%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:38.099 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 13.25%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:39.104 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 9.77%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:40.110 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 9.50%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:40.110 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:40.110 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C2 CompilerThread0" (javaThreadId = 18)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:40.110 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "C1 CompilerThread0" (javaThreadId = 21)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:40.110 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:30:41.118 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 9.91%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:42.123 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 10.18%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:43.127 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 13.17%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:44.128 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.76%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:45.133 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.88%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:46.139 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 16.14%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:47.144 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.15%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:48.146 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 18.02%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:49.148 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 20.20%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:50.153 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 20.90%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:50.153 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:50.153 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:30:50.153 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:30:51.161 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 19.62%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:52.166 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 20.24%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:53.168 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 20.00%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:54.173 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.94%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:55.174 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 12.53%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:56.179 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 12.55%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:57.183 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.91%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:58.188 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.37%
+}
+
+jdk.CPULoad {
+  startTime = 11:30:59.191 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.14%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:00.194 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 13.17%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:31:00.194 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Service Thread" (javaThreadId = 16)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:31:00.194 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "C2 CompilerThread0" (javaThreadId = 18)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:31:00.194 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C1 CompilerThread0" (javaThreadId = 21)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:31:00.194 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:31:00.194 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Thread-4" (javaThreadId = 45)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:31:00.194 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.CPULoad {
+  startTime = 11:31:01.200 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.57%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:02.205 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 14.44%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:03.206 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 26.68%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:04.211 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 16.77%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:05.214 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 25.18%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:06.216 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.30%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:07.222 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.90%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:08.227 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 14.91%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:09.232 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.01%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:10.233 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.14%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:31:10.234 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:31:10.234 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:31:10.234 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:31:11.243 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 12.39%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:12.249 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 10.88%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:13.249 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 12.74%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:14.254 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 12.41%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:15.256 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.80%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:16.260 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.56%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:17.266 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.57%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:18.267 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 14.24%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:19.272 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 13.55%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:20.277 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.30%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:31:20.278 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:31:20.278 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:31:21.283 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 13.19%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:22.284 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.84%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:23.290 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.81%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:24.290 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 15.68%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:25.295 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 17.10%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:26.300 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 18.53%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:27.305 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.09%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:28.308 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 15.85%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:29.313 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 18.82%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:30.318 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 20.92%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:31:30.319 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:31:30.319 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:31:30.319 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.CPULoad {
+  startTime = 11:31:31.325 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 21.54%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:32.327 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 29.00%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:33.332 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 26.85%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:34.335 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 32.63%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:35.341 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.77%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:36.345 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 14.21%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:37.349 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 14.37%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:38.350 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.61%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:39.356 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 22.85%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:40.360 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 24.00%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:31:40.361 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:31:40.361 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.CPULoad {
+  startTime = 11:31:41.370 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 24.38%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:42.372 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 18.78%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:43.378 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 14.26%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:44.382 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.78%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:45.383 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 10.72%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:46.389 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.46%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:47.391 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 12.42%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:48.396 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.69%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:49.402 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.06%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:50.407 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 10.77%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:31:50.408 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:31:50.408 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:31:50.408 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:31:51.416 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 11.33%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:52.421 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 10.86%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:53.423 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.61%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:54.429 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 10.86%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:55.430 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 10.24%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:56.433 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.81%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:57.439 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 12.51%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:58.444 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.87%
+}
+
+jdk.CPULoad {
+  startTime = 11:31:59.448 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 10.23%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:00.452 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 10.55%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:00.453 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:00.453 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Service Thread" (javaThreadId = 16)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:00.453 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.CPULoad {
+  startTime = 11:32:01.463 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 12.81%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:02.468 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.58%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:03.473 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 13.84%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:04.477 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 13.94%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:05.482 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.77%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:06.487 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.65%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:07.488 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 18.29%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:08.494 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 20.10%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:09.499 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 17.90%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:10.500 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 19.10%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:10.500 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C1 CompilerThread0" (javaThreadId = 21)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:10.500 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:10.500 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:10.500 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:10.500 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Thread-6" (javaThreadId = 47)
+}
+
+jdk.CPULoad {
+  startTime = 11:32:11.509 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 29.92%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:12.510 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.92%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:13.516 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 13.59%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:14.516 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 12.91%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:15.522 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.57%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:16.527 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.86%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:17.532 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.21%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:18.538 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 12.70%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:19.541 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 15.55%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:20.545 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.89%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:20.545 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:20.545 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:32:21.555 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 13.62%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:22.557 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.14%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:23.563 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.54%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:24.566 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 14.41%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:25.568 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 16.22%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:26.573 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.01%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:27.573 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 15.63%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:28.579 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 16.47%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:29.579 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.02%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:30.582 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 13.14%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:30.582 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:30.582 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:30.582 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Thread-5" (javaThreadId = 46)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:30.582 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.CPULoad {
+  startTime = 11:32:31.589 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 14.86%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:32.593 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.04%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:33.598 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.80%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:34.600 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 12.90%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:35.605 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.31%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:36.611 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 12.15%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:37.616 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.53%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:38.622 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 11.89%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:39.623 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.81%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:40.627 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.69%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:40.628 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:40.628 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:32:41.635 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 12.16%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:42.640 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.77%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:43.645 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 14.06%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:44.650 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.91%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:45.655 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.59%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:46.657 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 12.02%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:47.661 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 13.31%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:48.666 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.75%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:49.672 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.94%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:50.676 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 12.29%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:50.677 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:50.677 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:50.677 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Thread-6" (javaThreadId = 47)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:50.677 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:32:50.677 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C1 CompilerThread0" (javaThreadId = 21)
+}
+
+jdk.CPULoad {
+  startTime = 11:32:51.683 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 12.52%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:52.685 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.50%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:53.691 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.61%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:54.694 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 11.90%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:55.698 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 10.97%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:56.700 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 10.82%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:57.705 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 11.48%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:58.705 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 11.28%
+}
+
+jdk.CPULoad {
+  startTime = 11:32:59.707 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.95%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:00.712 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.12%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:33:00.712 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:33:00.712 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:33:00.712 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Service Thread" (javaThreadId = 16)
+}
+
+jdk.CPULoad {
+  startTime = 11:33:01.721 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 13.69%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:02.724 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.66%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:03.729 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 12.29%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:04.733 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.81%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:05.738 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 11.69%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:06.744 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.03%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:07.749 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.21%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:08.753 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 16.73%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:09.757 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 16.12%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:10.763 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 16.20%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:33:10.763 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:33:10.763 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:33:10.763 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:33:11.773 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 16.15%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:12.778 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 19.54%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:13.782 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 21.46%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:14.784 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 25.43%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:15.790 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 14.40%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:16.794 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 19.17%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:17.799 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 20.62%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:18.803 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 16.48%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:19.808 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 20.44%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:20.811 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 16.30%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:33:20.811 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Thread-6" (javaThreadId = 47)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:33:20.811 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:33:20.811 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C1 CompilerThread0" (javaThreadId = 21)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:33:20.811 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.CPULoad {
+  startTime = 11:33:21.816 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 16.72%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:22.819 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 16.00%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:23.824 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 19.88%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:24.830 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.10%
+  machineTotal = 32.37%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:25.830 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 22.50%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:26.836 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 20.88%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:27.841 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.02%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:28.844 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.57%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:29.849 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 20.00%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:30.854 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 9.07%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:33:30.855 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:33:30.855 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:33:30.855 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.CPULoad {
+  startTime = 11:33:31.864 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.32%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:32.869 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.59%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:33.874 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 13.46%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:34.878 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 25.25%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:35.883 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 17.68%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:36.884 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 15.23%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:33:37.005 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Thread-4" (javaThreadId = 45)
+}
+
+jdk.CPULoad {
+  startTime = 11:33:37.890 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 15.79%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:38.894 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.71%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:39.894 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.96%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:40.899 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.46%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:33:40.900 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:33:40.900 (2026-11-15)
+  user = 0.01%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.CPULoad {
+  startTime = 11:33:41.909 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 12.71%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:42.912 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 14.21%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:43.917 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 10.76%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:44.920 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.98%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:45.925 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.84%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:46.931 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 11.13%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:47.933 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 20.66%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:48.935 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 34.77%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:49.941 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 16.70%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:50.943 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.29%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:33:50.944 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:33:50.944 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:33:50.944 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "Monitor Deflation Thread" (javaThreadId = 17)
+}
+
+jdk.CPULoad {
+  startTime = 11:33:51.952 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 16.65%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:52.957 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 16.15%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:53.960 (2026-11-15)
+  jvmUser = 0.20%
+  jvmSystem = 0.10%
+  machineTotal = 17.33%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:54.966 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 15.28%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:55.969 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.80%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:56.974 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 11.37%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:57.979 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 25.95%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:58.985 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 20.96%
+}
+
+jdk.CPULoad {
+  startTime = 11:33:59.987 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 15.97%
+}
+
+jdk.CPULoad {
+  startTime = 11:34:00.992 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 11.37%
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:34:00.993 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Recorder Thread" (javaThreadId = 40)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:34:00.993 (2026-11-15)
+  user = 0.02%
+  system = 0.00%
+  eventThread = "Thread-7" (javaThreadId = 48)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:34:00.993 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "JFR Periodic Tasks" (javaThreadId = 42)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:34:00.993 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C2 CompilerThread0" (javaThreadId = 18)
+}
+
+jdk.ThreadCPULoad {
+  startTime = 11:34:00.993 (2026-11-15)
+  user = 0.00%
+  system = 0.00%
+  eventThread = "C1 CompilerThread0" (javaThreadId = 21)
+}
+
+jdk.CPULoad {
+  startTime = 11:34:02.003 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 12.81%
+}
+
+jdk.CPULoad {
+  startTime = 11:34:03.008 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.38%
+}
+
+jdk.CPULoad {
+  startTime = 11:34:04.013 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 10.66%
+}
+
+jdk.CPULoad {
+  startTime = 11:34:05.017 (2026-11-15)
+  jvmUser = 0.10%
+  jvmSystem = 0.00%
+  machineTotal = 12.97%
+}
+
+jdk.CPULoad {
+  startTime = 11:34:06.017 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.10%
+  machineTotal = 12.86%
+}
+
+jdk.CPULoad {
+  startTime = 11:34:07.019 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 13.09%
+}
+
+jdk.CPULoad {
+  startTime = 11:34:08.023 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 16.92%
+}
+
+jdk.CPULoad {
+  startTime = 11:34:09.025 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 11.18%
+}
+
+jdk.CPULoad {
+  startTime = 11:34:10.029 (2026-11-15)
+  jvmUser = 0.00%
+  jvmSystem = 0.00%
+  machineTotal = 10.07%
+}
+
