@@ -9,7 +9,7 @@ PROFILE_DIR="${PROFILE_DIR:-$ROOT_DIR/profiling}"
 
 SERVER_CLASS="${SERVER_CLASS:-server.ChatServer}"
 CLIENT_CLASS="${CLIENT_CLASS:-client.ChatClient}"
-GUI_CLASS="${GUI_CLASS:-gui.ChatClientGUI}"
+GUI_CLASS="${GUI_CLASS:-gui.LoginFrame}"
 
 log()  { printf '\033[1;32m[INFO]\033[0m %s\n' "$*"; }
 warn() { printf '\033[1;33m[WARN]\033[0m %s\n' "$*" >&2; }
@@ -30,13 +30,13 @@ Usage:
 
 Examples:
   ./run.sh compile
-  ./run.sh server 5000
-  ./run.sh profile-server 5000
+  ./run.sh server 6000
+  ./run.sh profile-server 6000
   ./run.sh client
   ./run.sh gui
 
 Optional class overrides:
-  SERVER_CLASS=server.ChatServer ./run.sh server 5000
+  SERVER_CLASS=server.ChatServer ./run.sh server 6000
   CLIENT_CLASS=your.package.ClientMain ./run.sh client
   GUI_CLASS=your.package.GuiMain ./run.sh gui
 
